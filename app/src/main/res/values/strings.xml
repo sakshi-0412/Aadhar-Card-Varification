@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">AadharCarVerificationApp</string>
+    <string name="menu_find_aadhar">Find Aadhar</string>
+    <string name="menu_upload_image">Upload Image</string>
+    <string name="menu_qr_code_scanner">QR Code Scanner</string>
+    <string name="scan_qr_code">Scan a Aadhar Card QR Code</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="enter_aadhar_card_number">Enter Aadhar Card Number.</string>
+    <string name="validate_aadhar">Validate Aadhar Number</string>
+    <string name="is_valid">is valid.</string>
+    <string name="is_not_valid">is not valid</string>
+    <string name="uid">Uid: </string>
+    <string name="name">Name:</string>
+    <string name="gender">"Gender: "</string>
+    <string name="yob">Yob:</string>
+    <string name="co">Co:</string>
+    <string name="house">House:</string>
+    <string name="lm">Lm:</string>
+    <string name="loc">Loc:</string>
+    <string name="vtc">Vtc:</string>
+    <string name="po">Po:</string>
+    <string name="dist">Dist:</string>
+    <string name="subdist">SubDist:</string>
+    <string name="state">State:</string>
+    <string name="pincode">Pincode:</string>
+    <string name="dob">Dob:</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="number_of_image">Select number of image(s) you want to select.</string>
+    <string name="simple_text_1">Simple Text 1</string>
+    <string name="simple_text_2">Simple Text 2</string>
+    <string name="simple_text_3">Simple Text 3</string>
+    <string name="simple_text_4">Simple Text 4</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_16dp"
+    tools:context=".fragment.FindAadharFragment">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tilAadharCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="12"
+            android:hint="@string/enter_aadhar_card_number"
+            android:inputType="number"
+            android:textColor="@color/purple_700"
+            android:textColorHint="@color/grey"
+            android:textSize="@dimen/text_size_14_sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tvValid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_16_sp" />
+
+    <Button
+        android:id="@+id/btnValidateAadhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:background="@color/teal_700"
+        android:text="@string/validate_aadhar"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSimpleText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:background="@color/teal_700"
+        android:text="@string/simple_text_1"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSimpleText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:background="@color/teal_700"
+        android:text="@string/simple_text_2"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSimpleText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:background="@color/teal_700"
+        android:text="@string/simple_text_3"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnSimpleText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:background="@color/teal_700"
+        android:text="@string/simple_text_4"
+        android:textColor="@color/white" />
+
+
+
+
+</LinearLayout>
